@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/assets/font/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: PopinsBold;
+    src: url(/assets/font/Poppins/Poppins-Bold.ttf);
+}
+
+
+#main {
+    opacity: 0.9;
+}
+
+#header {
+    width: 100%;
+    min-height: 104px;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    position: absolute;
+}
+
+#header .header_logo {
+    width: 100%;
+    flex: 1;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+#header .header_manu {
+    flex: 6;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header .header_manu a {
+    font-size: 14px;
+    font-weight: 550;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #fff;
+}
+
+#header .header_manu .manu_item {
+    padding: 25px;
+}
+
+#header .header_manu-btn {
+    padding: 10px 25px;
+    margin-left: 25px;
+    background-color: #ba71da;
+    border-radius: 40px 40px;
+}
+
+#header .header_sub-manu {
+    flex: 1;
+    display: flex;
+    padding: 0 15px;
+    font-size: 25px;
+    color: #fff;
+    justify-content: flex-end;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#header .header_logo .logo_home {
+    width: 160px;
+    height: 37px;
+}
+
+#header .header_manu li {
+    display: inline-block;
+}
+
