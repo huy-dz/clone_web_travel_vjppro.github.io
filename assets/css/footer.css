@@ -78,6 +78,7 @@
     font-size: 22px;
     padding: 0 8px;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 #footer .foot_container .box_right {
@@ -103,7 +104,6 @@
 #footer .foot_container .box_right ul i {
     font-size: 10px;
     opacity: 0.4;
-    cursor: pointer;
 } 
 
 #footer .foot_end {
