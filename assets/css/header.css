@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/assets/font/Poppins/Poppins-Light.ttf);
+    src: url(../font/Poppins/Poppins-Light.ttf);
 }
 
 @font-face {
     font-family: PopinsBold;
-    src: url(/assets/font/Poppins/Poppins-Bold.ttf);
+    src: url(../font/Poppins/Poppins-Bold.ttf);
 }
 
 
